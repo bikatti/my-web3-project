@@ -3,23 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Dapp</title>
 </head>
 <body>
   <button id="connect">Conectar</button>
 
-  <div style="display: none" id="content">
-    <h1>Tu cuenta: </h1>
+  <div style="display: none;" id="content">
+    <h1>Tu cuenta:</h1>
     <span id="account"></span>
-    <form id="send" style="margin-top: 10px;">
-      <label>Address</label>
-      <input id="recipient" type="text" placeholder="Recipient">
-      
-      <label>In weis</label>
-      <input id="amount" type="number" placeholder="Amount">
-      <button>transact</button>
+
+    <form id="send">
+        <label>Address</label>
+        <input id="recipient" type="text" placeholder="Recipient">
+
+        <label>Amount</label>
+        <input id="amount" type="number" placeholder="amount">
+        <button>Enviar</button>
     </form>
   </div>
+
   <script src="./main.js"></script>
 </body>
 </html>
